@@ -1,0 +1,10 @@
+please continue. make code changes directly in file
+
+I want you to create a nextjs that solves my problem of preparing for senior level frontend engineer who has been working on react, redux and architechting frontend applications for 5+years. I want to prepare for top companies like Amazon, Micrososoft, Atlassian, Google, Paypal, ServiceNow, JPMoragn etc,This app should have all the level of intyerview 
+Level 1 - Javascript and Typescript - beginner, intermediate, and adbacnced interview questions as well as answer. Also, provide a small runtime to run JS or TS code. (Around 100+ problems)
+Level 2 - React, Redux, RTK Query - internediate and advanced questiuons and answers. (Around 50+ problems)
+Level 3 - A set of 15 componet design both High level with proper design (Flowcharta and how component behaves) ad well as the low level actual code that I can view in the app. These componenet can be tested and run in this app
+Level 4 -a Advanced arcchiterical questions and answers including frontend sytsem design that can help me outshine my interviews. Include backedn quesrions as weel that might be required (Around 50+ problems)
+Level 5 - Add questions on how internet works, how a web page loads, security and best practices, performance optimization and other included and similar topics. (Around 50+problems)
+
+Discuss in detail and provide accurate questions and answerts. Make this app a one stop shop for all the frontend related interview questions and answers required to ace a senior frontend enginner interview at top companies. Add anything extra that you think should make the app even better
