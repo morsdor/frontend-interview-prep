@@ -5,7 +5,7 @@ export interface Question {
   category: string;
   tags: string[];
   description: string;
-  answer: string;
+  answer?: string;
   codeExample?: string;
   explanation?: string;
   followUpQuestions?: string[];

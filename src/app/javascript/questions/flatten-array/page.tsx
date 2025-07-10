@@ -1,11 +1,11 @@
-import { Metadata } from 'next';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
-import { Badge } from '@/components/ui/badge';
-import { CodeEditor } from '@/components/editor/CodeEditor';
+import { Metadata } from "next";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/Card";
+import { Badge } from "@/components/ui/badge";
+import { CodeEditor } from "@/components/editor/CodeEditor";
 
 export const metadata: Metadata = {
-  title: 'Flatten Array - JavaScript Questions',
-  description: 'Practice flattening arrays in JavaScript'
+  title: "Flatten Array - JavaScript Questions",
+  description: "Practice flattening arrays in JavaScript",
 };
 
 const initialCode = `/**
@@ -49,10 +49,16 @@ export default function ArrayFlattenQuestion() {
       <div className="space-y-2">
         <h1 className="text-3xl font-bold">Flatten Array</h1>
         <div className="flex flex-wrap gap-2">
-          <Badge variant="outline" className="bg-yellow-100 text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-400">
+          <Badge
+            variant="outline"
+            className="bg-yellow-100 text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-400"
+          >
             Arrays
           </Badge>
-          <Badge variant="outline" className="bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-400">
+          <Badge
+            variant="outline"
+            className="bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-400"
+          >
             Beginner
           </Badge>
         </div>
@@ -64,15 +70,16 @@ export default function ArrayFlattenQuestion() {
         </CardHeader>
         <CardContent className="space-y-4">
           <p className="text-gray-700 dark:text-gray-300">
-            Write a function that takes a nested array and returns a new array with all values flattened.
-            The function should handle multiple levels of nesting.
+            Write a function that takes a nested array and returns a new array
+            with all values flattened. The function should handle multiple
+            levels of nesting.
           </p>
-          
+
           <div className="space-y-2">
             <h3 className="font-semibold">Examples:</h3>
             <pre className="bg-gray-100 dark:bg-gray-800 p-4 rounded-md overflow-x-auto">
               <code className="text-sm">
-{`flatten([1, [2, [3, [4]], 5]]) // [1, 2, 3, 4, 5]
+                {`flatten([1, [2, [3, [4]], 5]]) // [1, 2, 3, 4, 5]
 flatten([1, [2, [3, [4, [5]]]]]) // [1, 2, 3, 4, 5]
 flatten([1, 2, 3, 4, 5]) // [1, 2, 3, 4, 5]
 flatten([]) // []`}
@@ -120,27 +127,46 @@ flatten([]) // []`}
         </CardHeader>
         <CardContent className="space-y-4">
           <p className="text-gray-700 dark:text-gray-300">
-            The solution uses a recursive approach to flatten the array. Here's how it works:
+            The solution uses a recursive approach to flatten the array. Here's
+            how it works:
           </p>
-          
+
           <ol className="list-decimal pl-6 space-y-2">
-            <li>We use the <code>reduce</code> method to iterate through each element of the array.</li>
-            <li>For each element, we check if it's an array using <code>Array.isArray()</code>.</li>
-            <li>If it's an array, we recursively call <code>flatten</code> on it.</li>
-            <li>If it's not an array, we add it directly to the accumulator.</li>
-            <li>We use <code>concat</code> to combine the current accumulator with the current value (or flattened array).</li>
+            <li>
+              We use the <code>reduce</code> method to iterate through each
+              element of the array.
+            </li>
+            <li>
+              For each element, we check if it's an array using{" "}
+              <code>Array.isArray()</code>.
+            </li>
+            <li>
+              If it's an array, we recursively call <code>flatten</code> on it.
+            </li>
+            <li>
+              If it's not an array, we add it directly to the accumulator.
+            </li>
+            <li>
+              We use <code>concat</code> to combine the current accumulator with
+              the current value (or flattened array).
+            </li>
           </ol>
-          
+
           <p className="text-gray-700 dark:text-gray-300">
-            <strong>Time Complexity:</strong> O(n) where n is the total number of elements in all nested arrays.
+            <strong>Time Complexity:</strong> O(n) where n is the total number
+            of elements in all nested arrays.
             <br />
-            <strong>Space Complexity:</strong> O(d) where d is the maximum depth of the array due to the call stack.
+            <strong>Space Complexity:</strong> O(d) where d is the maximum depth
+            of the array due to the call stack.
           </p>
-          
+
           <div className="p-4 bg-blue-50 dark:bg-blue-900/20 rounded-md">
-            <h4 className="font-semibold mb-2">Alternative Solution (ES2019+):</h4>
+            <h4 className="font-semibold mb-2">
+              Alternative Solution (ES2019+):
+            </h4>
             <p className="text-sm text-gray-700 dark:text-gray-300">
-              In modern JavaScript, you can use the <code>flat()</code> method with <code>Infinity</code> 
+              In modern JavaScript, you can use the <code>flat()</code> method
+              with <code>Infinity</code>
               to flatten an array of any depth: <code>arr.flat(Infinity)</code>
             </p>
           </div>

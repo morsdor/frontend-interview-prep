@@ -24,6 +24,7 @@ type CodeEditorProps = {
   showCopyButton?: boolean;
   showConsole?: boolean;
   showExecutionTime?: boolean;
+  showLineNumbers?: boolean;
   language?: string;
   theme?: 'light' | 'dark';
   editorOptions?: any;
@@ -128,13 +129,18 @@ export function CodeEditor({
   }, []);
 
   // Default editor options
-  const defaultEditorOptions = {
-    fontSize: 14,
-    lineNumbers: 'on',
+  const options = {
+    selectOnLineNumbers: true,
+    roundedSelection: false,
+    readOnly,
+    cursorStyle: 'line',
+    automaticLayout: true,
     minimap: { enabled: false },
     scrollBeyondLastLine: false,
-    automaticLayout: true,
-    tabSize: 2,
+    fontSize: 14,
+    lineNumbersMinChars: 3,
+    folding: true,
+    lineNumbers: 'on',
     ...editorOptions,
   };
 
@@ -151,7 +157,7 @@ export function CodeEditor({
             onMount={handleEditorDidMount}
             beforeMount={handleEditorWillMount}
             options={{
-              ...defaultEditorOptions,
+              ...options,
               readOnly,
             }}
             loading={loading}

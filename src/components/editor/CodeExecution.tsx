@@ -231,7 +231,12 @@ export function CodeExecution({
               {isRunning ? (
                 <div className="text-gray-400">Running code...</div>
               ) : error ? (
-                <div className="text-red-400">Error: {error}</div>
+                <div className="text-red-400 space-y-2">
+                  <div className="font-semibold">Error:</div>
+                  <pre className="whitespace-pre-wrap break-words bg-red-900/20 p-2 rounded">
+                    {error}
+                  </pre>
+                </div>
               ) : output ? (
                 <pre className="whitespace-pre-wrap break-words">{output}</pre>
               ) : (
