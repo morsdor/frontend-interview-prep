@@ -9,7 +9,11 @@ Level 5 - Add questions on how internet works, how a web page loads, security an
 
 Discuss in detail and provide accurate questions and answerts. Make this app a one stop shop for all the frontend related interview questions and answers required to ace a senior frontend enginner interview at top companies. Add anything extra that you think should make the app even better
 
-
+Each question page should have 3 parts - 
+problem statement and problem requirement with an example maybe 
+Another part should contain a code editor for js where i can type in code and execute it and see console output
+Last part should contain solution in markdown code and a proper explanation for that
+Remember this step for all the question page to be created. It would be better not to use state or effect code that can cause to use "use client" directive
 
 // To add a new question
 Now start adding more questions under  javascript/questions folder. make interesting questions and answers that challenge users.  add each question under individual folder and also add that reference to the questions.ts file
