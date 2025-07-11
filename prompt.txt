@@ -16,3 +16,38 @@ Last part should contain solution in markdown code and a proper explanation for 
 Remember this step for all the question page to be created.
 
 Now start adding more questions under  javascript/questions folder. make interesting questions and answers that challenge users.  add each question under individual folder and also add that reference to the questions.ts file
+
+
+
+// Can you peparare me a complete componet system design solution for below in markdown format that i would answer in an interview for senior UI enginner . complete component api design and also low level design
+
+
+I'm in an interview for senior UI developer at top FAANG+ companies. I am asked to design a componet with api and low level design. I have 90 minutes to answer that along with some followup questions. Now design the complete component along with 5-10 important questions and answers related to that component design in the same markdown file.
+
+Data Table / DataGrid Component
+ - Tests virtualization, sorting, filtering, pagination, and performance optimization.
+
+### Key Challenges:
+- Virtual scrolling for 100k+ rows
+- Column resizing, sorting, filtering
+- Row selection and bulk operations
+- Inline editing capabilities
+- Export functionality
+- Responsive design
+
+Keep answer in an interview context
+
+I'm in an interview for senior UI developer at top FAANG+ companies. I am asked to design a componet with api and low level design. I have 90 minutes to answer that along with some followup questions. Now design the complete component along with 5-10 important questions and answers related to that component design in the same markdown file.
+
+Autocomplete/Typeahead Component
+ Tests debouncing, API optimization, keyboard navigation, and accessibility.
+
+### Key Challenges:
+- Debounced search with cancellation
+- Keyboard navigation (arrow keys, enter, escape)
+- Multi-select capabilities
+- Custom rendering for suggestions
+- Async data loading with loading states
+- Screen reader compatibility
+
+Keep answer in an interview context
