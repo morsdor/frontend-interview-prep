@@ -17,6 +17,14 @@ export const javascriptQuestions: Question[] = [
     difficulty: 'intermediate',
     category: 'Functions',
     tags: ['functions', 'timing', 'performance'],
+  },
+  {
+    id: 'deep-clone-object',
+    title: 'Deep Clone Object',
+    description: 'Write a function that deep clones an object. The function should handle nested objects and arrays.',
+    difficulty: 'beginner',
+    category: 'Objects',
+    tags: ['objects', 'cloning', 'deep-copy'],
   }
 ];
 

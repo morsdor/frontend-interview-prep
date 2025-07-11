@@ -97,8 +97,6 @@ flatten([]) // []`}
           <CodeEditor
             initialCode={initialCode}
             height={400}
-            showConsole={true}
-            showExecutionTime={true}
             language="javascript"
             theme="dark"
           />
@@ -113,8 +111,6 @@ flatten([]) // []`}
           <CodeEditor
             initialCode={solutionCode}
             height={200}
-            readOnly={true}
-            showRunButton={false}
             language="javascript"
             theme="dark"
           />

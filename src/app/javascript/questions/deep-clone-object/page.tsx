@@ -1,15 +1,17 @@
-
-"use client"
+"use client";
 
 import React from "react";
-import { Card } from '@/components/ui/Card';
+import { Card } from "@/components/ui/Card";
 
 // 1. Problem Statement & Example
 const problem = (
   <Card className="mb-6 p-6">
     <h1 className="text-2xl font-bold mb-2">Deep Clone an Object</h1>
     <p className="mb-2">
-      Write a function <code>deepClone(obj)</code> that creates a deep copy of a given JavaScript object. The clone should recursively copy all nested objects and arrays, so that changes to the clone do not affect the original.
+      Write a function <code>deepClone(obj)</code> that creates a deep copy of a
+      given JavaScript object. The clone should recursively copy all nested
+      objects and arrays, so that changes to the clone do not affect the
+      original.
     </p>
     <b>Example:</b>
     <pre className="bg-black text-green-200 rounded p-3 overflow-x-auto mt-2 mb-0 text-sm">{`const obj = { a: 1, b: { c: 2 }, d: [3, 4] };
@@ -20,7 +22,7 @@ console.log(obj.b.c); // 2 (should not change)`}</pre>
 );
 
 // 2. Code Editor & Output (uses project CodeEditor)
-import { CodeEditor } from '@/components/editor/CodeEditor';
+import { CodeEditor } from "@/components/editor/CodeEditor";
 
 const starterCode = `/**
  * Deep clone a JavaScript object.
@@ -69,11 +71,6 @@ try {
 `}
       language="javascript"
       theme="dark"
-      showRunButton
-      showResetButton
-      showCopyButton
-      showConsole
-      showExecutionTime
     />
   </Card>
 );
@@ -94,7 +91,10 @@ const solution = (
   return result;
 }`}</pre>
     <p>
-      This solution checks if the value is an array or object and recursively clones each property. It handles nested objects/arrays, but does not handle special cases like Dates, Maps, Sets, or circular references (those are advanced extensions).
+      This solution checks if the value is an array or object and recursively
+      clones each property. It handles nested objects/arrays, but does not
+      handle special cases like Dates, Maps, Sets, or circular references (those
+      are advanced extensions).
     </p>
   </Card>
 );
