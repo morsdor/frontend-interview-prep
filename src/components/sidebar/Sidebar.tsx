@@ -189,7 +189,7 @@ export function Sidebar({
                     : 'text-gray-700 dark:text-gray-300'
                 )}
               >
-                <div className="flex items-center justify-between">
+                <div className="flex items-center gap-2">
                   <span className="truncate">{question.title}</span>
                   <Badge 
                     variant="outline" 
