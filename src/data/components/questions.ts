@@ -5,7 +5,7 @@ export const componentQuestions: Question[] = [
     id: 'chat-component',
     title: 'Chat Component',
     description: 'A comprehensive, scalable, and reusable chat component system designed for modern web applications. This system provides a complete chat experience with real-time messaging, user management, and extensible UI components.',
-    difficulty: 'intermediate',
+    difficulty: 'advanced',
     category: 'Components',
     tags: ['components', 'chat', 'real-time'],
   },
@@ -48,6 +48,22 @@ export const componentQuestions: Question[] = [
     difficulty: 'advanced',
     category: 'Components',
     tags: ['components', 'virtual-scroll', 'performance'],
+  },
+  {
+    id: 'modals-component',
+    title: 'Modals Component',
+    description: 'A production-ready Modals component that handles complex state management, internationalization, accessibility, and various interaction patterns required for enterprise applications.',
+    difficulty: 'advanced',
+    category: 'Components',
+    tags: ['components', 'modals', 'internationalization'],
+  },
+  {
+    id: 'form-builder-component',
+    title: 'Form Builder Component',
+    description: 'A production-ready Form Builder component that handles complex state management, internationalization, accessibility, and various interaction patterns required for enterprise applications.',
+    difficulty: 'advanced',
+    category: 'Components',
+    tags: ['components', 'form-builder', 'internationalization'],
   }
 ];
 
