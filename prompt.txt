@@ -38,6 +38,8 @@ Data Table / DataGrid Component
 Keep answer in an interview context
 
 I'm in an interview for senior UI developer at top FAANG+ companies. I am asked to design a componet with api and low level design. I have 90 minutes to answer that along with some followup questions. Now design the complete component along with 5-10 important questions and answers related to that component design in the same markdown file.
+Keep answer in an interview context
+
 
 Autocomplete/Typeahead Component
  Tests debouncing, API optimization, keyboard navigation, and accessibility.
@@ -50,4 +52,4 @@ Autocomplete/Typeahead Component
 - Async data loading with loading states
 - Screen reader compatibility
 
-Keep answer in an interview context
+

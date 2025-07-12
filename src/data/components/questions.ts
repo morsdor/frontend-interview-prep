@@ -24,6 +24,30 @@ export const componentQuestions: Question[] = [
     difficulty: 'advanced',
     category: 'Components',
     tags: ['components', 'autocomplete', 'debounce'],
+  },
+  {
+    id: 'date-time-picker-component',
+    title: 'Date/Time Picker Component',
+    description: 'A production-ready Date/Time Picker component that handles complex state management, internationalization, accessibility, and various interaction patterns required for enterprise applications.',
+    difficulty: 'advanced',
+    category: 'Components',
+    tags: ['components', 'date-time-picker', 'internationalization'],
+  },
+  {
+    id: 'file-upload-component',
+    title: 'File Upload Component',
+    description: 'A production-ready File Upload component that handles complex state management, internationalization, accessibility, and various interaction patterns required for enterprise applications.',
+    difficulty: 'advanced',
+    category: 'Components',
+    tags: ['components', 'file-upload', 'internationalization'],
+  },
+  {
+    id: 'virtual-scroll-component',
+    title: 'Virtual Scroll Component',
+    description: 'A high-performance virtual scrolling list component that renders only visible items to handle large datasets efficiently. Supports dynamic item heights, bi-directional scrolling, search, and real-time updates.',
+    difficulty: 'advanced',
+    category: 'Components',
+    tags: ['components', 'virtual-scroll', 'performance'],
   }
 ];
 
