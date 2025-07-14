@@ -64,6 +64,22 @@ export const componentQuestions: Question[] = [
     difficulty: 'advanced',
     category: 'Components',
     tags: ['components', 'form-builder', 'internationalization'],
+  },
+  {
+    id: 'treeview-component',
+    title: 'Tree View Component',
+    description: 'A production-ready Tree View component that handles complex state management, internationalization, accessibility, and various interaction patterns required for enterprise applications.',
+    difficulty: 'advanced',
+    category: 'Components',
+    tags: ['components', 'tree-view', 'internationalization'],
+  },
+  {
+    id: 'rich-text-editor',
+    title: 'Rich Text Editor',
+    description: 'A production-ready Rich Text Editor component that handles complex state management, internationalization, accessibility, and various interaction patterns required for enterprise applications.',
+    difficulty: 'advanced',
+    category: 'Components',
+    tags: ['components', 'rich-text-editor', 'internationalization'],
   }
 ];
 
